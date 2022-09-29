@@ -1,0 +1,25 @@
+h1{text-align: center;}
+
+header {
+
+    float: right;
+    width: 1150px;
+    background-color: rgb(0, 157, 255);
+    border: 3px;
+    border-color: aqua;
+    border-style: groove;
+    text-align: center;
+    margin: 30px;
+
+}
+
+body{background-color: rgb(196, 127, 180);}
+
+#sidebox{
+    background-color: rgb(0, 157, 255);
+    width: 200px;
+    height: 695px;
+    padding: 5px;
+    border: 3px groove aqua;
+    position: absolute;
+}
