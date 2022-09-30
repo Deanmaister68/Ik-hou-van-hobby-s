@@ -7,6 +7,7 @@ body{
     width: 200px;
     height: 100%;
     padding: 5px;
+    
     border: 3px groove rgb(29, 180, 180);
     position: absolute;
     
@@ -40,4 +41,12 @@ body{
   .button:hover {
     background-color:#1de303;
     transition: 0.7s;
+}
+
+video{
+    width: 900px;
+    margin-left: 450px;
+    margin-top: 150px;
+    position: absolute;
+    border-radius: 24px;
 }
