@@ -1,21 +1,80 @@
 
-body{background-color:rgb(196, 127, 180);}
+body
+{background-color:#C0C0C0;}
+
 #header {
 
     float: right;
     width: 1150px;
-    background-color: rgb(0, 90, 136);
+    background-color: rgb(14, 14, 14);
     border: 3px;
-    border-color: aqua;
+    border-color:rgb(92, 92, 92);
     border-style: groove;
     text-align: center;
     margin: 30px;
+    color: white;
 }
 #sidebox{
-    background-color:rgb(0, 90, 136);
+    background-color: rgb(14, 14, 14);
     width: 200px;
     height: 100%;
+    padding: 12px;
+
+    border: 3px groove rgb(92, 92, 92);
+    position: absolute;}
+
+    #infobox2{
+background-color:rgb(14, 14, 14);
+    width: 400px;
+    height: 250px;
     padding: 5px;
-    border: 3px groove aqua;
+    border: 3px groove rgb(92, 92, 92);
     position: absolute;
+    left: 325px;
+    top: 500px;
+    color: white;
+    font-family: tahoma;
+}
+#infobox{
+    background-color:rgb(14, 14, 14);
+        width: 400px;
+        height: 270px;
+        padding: 5px;
+        border: 3px groove rgb(92, 92, 92);
+        position: absolute;
+        left: 325px;
+        top: 175px;
+        color: white;
+        font-family: tahoma;
+    }
+#foto{
+float: right;
+ margin: 30px;
+ height: 250px;
+ }
+#foto1{
+float: right;
+margin: 30px;
+margin-top: 350px;
+margin-right: -400px;
+height: 250px;
+ }
+
+ .button {
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 200px;
+  }
+  .button:hover {
+    background-color:#1de303;
+    transition: 0.7s;
 }
