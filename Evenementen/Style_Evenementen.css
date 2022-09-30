@@ -10,21 +10,84 @@ header {
     float: right;
     width: 1150px;
     background-color: rgb(0, 90, 136);
-    border: 3px;
-    border-color: aqua;
-    border-style: groove;
+    border: 3px groove rgb(0, 55, 255);
     text-align: center;
     margin: 50px;
-
 }
 
 /*Boxes*/
 
 #sidebox{
+    
     background-color: rgb(0, 90, 136);
     width: 200px;
-    height: 695px;
+    height: 2000px;
     padding: 5px;
-    border: 3px groove aqua;
+    border: 3px groove rgb(0, 55, 255);
     position: absolute;
+}
+
+.box {
+
+    width: 260px;
+    height: 350px;
+    background-color: rgb(110, 255, 255);
+    border-radius: 20px; 
+}
+
+#box1 {
+
+    position: relative;
+    left: 300px;
+    top: 300px;
+}
+
+#box2 {
+
+    position: relative;
+    left: 750px;
+    bottom: 50px;
+}
+
+#box3 {
+
+    position: relative;
+    left: 1200px;
+    bottom: 400px;
+}
+
+#box4 {
+
+    position: relative;
+    left: 300px;
+    bottom: 300px;
+}
+
+#box5 {
+
+    position: relative;
+    left: 750px;
+    bottom: 650px;
+}
+
+#box6 {
+
+    position: relative;
+    left: 1200px;
+    bottom: 1000px;
+}
+
+/*Overeige Deco*/
+
+.Images {
+
+    width: 252px;
+    border: 4px groove black;
+    border-radius: 20px;
+}
+
+#Car_spotten_IMG {
+
+    bottom: 190px;
+    position: relative;
 }
