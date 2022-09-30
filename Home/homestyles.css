@@ -3,11 +3,11 @@ body{
 }
 
 #sidebox{
-    background-color: rgb(0, 157, 255);
+    background-color: rgb(0, 90, 136);
     width: 200px;
     height: 100%;
     padding: 5px;
-    border: 3px groove aqua;
+    border: 3px groove rgb(29, 180, 180);
     position: absolute;
     
     
@@ -16,12 +16,28 @@ body{
 
     float: right;
     width: 1150px;
-    background-color: rgb(57, 81, 142);
+    background-color: rgb(0, 90, 136);
     border: 3px;
     border-color: rgb(29, 180, 180);
     border-style: groove;
     text-align: center;
     margin: 30px;
-    
+}
 
+.button {
+    background-color: rgb(196, 127, 180);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .button:hover {
+    background-color:#1de303;
+    transition: 0.7s;
 }
