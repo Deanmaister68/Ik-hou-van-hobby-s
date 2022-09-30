@@ -1,0 +1,53 @@
+h1{text-align: center;}
+
+header {
+
+    float: right;
+    width: 1150px;
+    background-color: rgb(0, 90, 136);
+    border: 3px;
+    border-color: rgb(0, 55, 255);
+    border-style: groove;
+    text-align: center;
+    margin: 30px;
+
+}
+
+body{background-color: rgb(196, 127, 180);}
+
+#sidebox{
+    background-color: rgb(0, 157, 255);
+    width: 200px;
+    height: 695px;
+    padding: 5px;
+    border: 3px groove aqua;
+    position: absolute;
+}
+
+#mailbox{
+    float: right;
+    width: 1150px;
+    height: 200px;
+    background-color: rgb(0, 90, 136);
+    border: 3px;
+    border-color: rgb(0, 55, 255);
+    border-style: groove;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 30px;
+
+}
+
+#phonebox{
+    float: right;
+    width: 1150px;
+    height: 200px;
+    background-color: rgb(0, 90, 136);
+    border: 3px;
+    border-color: rgb(0, 55, 255);
+    border-style: groove;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 30px;
+
+}
