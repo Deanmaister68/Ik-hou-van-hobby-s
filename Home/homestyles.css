@@ -1,5 +1,20 @@
 body{
     background-color: 	#C0C0C0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    background-color: rgb(36, 36, 36);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 240px;
+    font-size: 50px;
+    height: 70px;
+    width: 200px;
+    color: white;
+    border-radius: 12px;
+   
+
 }
 
 #sidebox{
@@ -23,7 +38,7 @@ body{
     text-align: center;
     margin: 30px;
     color: white;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .button {
