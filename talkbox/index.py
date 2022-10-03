@@ -1,3 +1,4 @@
+#talkbox voor ons evenamenten bureau
 
 print("Welkom bij ons evenamentenbureau.")
 name = input("Wat is je naam?\n")
@@ -17,7 +18,8 @@ aantal_personen = int(aantal_personen)
 totaal = 10*aantal_personen
 
 datum = input("Wanneer wilt u dat deze workshop plaats vind? \n")
-tijd = input("hoelaat wilt u dat deze workshop plaats vind? \n")
+tijd = input("Hoelaat wilt u dat deze workshop plaats vind? \n")
+plaats = input("Waar wilt u waar deze workshop zig afspeeld \n")
 
 while workshop not in asortiment:
   print("Deze workshop is niet beschikbaar")
