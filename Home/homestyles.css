@@ -14,6 +14,7 @@ p{
     width: 150px;
     color: white;
     border-radius: 12px;
+    position: fixed;
    
 
 }
@@ -24,7 +25,7 @@ p{
     height: 100%;
     padding: 12px;  
     border: 3px groove rgb(92, 92, 92);
-    position: absolute;
+    position: fixed;
     border-radius: 12px;
     
     
@@ -73,7 +74,15 @@ video{
 
 
 
-
+#mask {
+    
+    position: absolute;
+    z-index: -1;
+    left: 22.5%;
+    top: 24%;
+    width: 1100px;
+    height: 500px;
+}
 
 
 

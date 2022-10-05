@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="homestyles.css" />
+    <?PHP
+echo shell_exec("python index.py 'parameter1'");
+?>
 </head>
 <body>
-   
-    
-      </div>
     
 </body>
 </html>

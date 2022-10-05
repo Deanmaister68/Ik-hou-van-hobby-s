@@ -1,0 +1,93 @@
+body {
+
+    background-color: #C0C0C0;
+}
+
+header {
+    color: white;
+    float: right;
+    width: 1150px;
+    background-color: rgb(14, 14, 14);
+    border: 3px groove rgb(92, 92, 92);
+    text-align: center;
+    margin: 50px;
+    font-family: tahoma;
+}
+
+
+
+.button {
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 200px;
+  }
+  .button:hover {
+    background-color:#1de303;
+    transition: 0.7s;
+}
+
+
+#sidebox{
+
+    background-color: rgb(14, 14, 14);
+    width: 200px;
+    height: 175%;
+    padding: 12px;
+    border: 3px groove rgb(92, 92, 92);
+    position: fixed;
+}
+
+#box1 {
+
+    width: 500px;   
+    height: 500px;
+    background-color:rgb(36, 36, 36);
+    border-radius: 20px; 
+    position: relative;
+    top: 300px;
+    left: 300px;
+    padding: 20px;
+    color:white ;
+    position: absolute;
+}
+
+#box2 {
+
+    width: 425px;
+    height: 225px;
+    background-color:#C0C0C0;
+    border-radius: 20px; 
+    position: absolute;
+    bottom: 300px;
+    left: 600px;
+    padding: 20px;
+}
+
+#box3 {
+
+    width: 425px;
+    height: 225px;
+    background-color:#C0C0C0;
+    border-radius: 20px; 
+    position: absolute;
+    bottom: 0px;
+    left: 600px;
+    padding: 20px;
+    
+}
+
+img{
+    width: 425px;
+    border-radius: 20px;
+    
+}
+
