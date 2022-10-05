@@ -17,8 +17,6 @@ function updateCountUp() {
     //makes sure that when the timer starts it starts at 0: 00 instead of 0: 0
     seconds = seconds < 10 ? '0' + seconds : seconds;
     
-    
-
     CountUpEl.innerHTML = `${minutes}: ${seconds}`;
     time++;
 }
