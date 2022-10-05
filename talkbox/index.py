@@ -1,3 +1,6 @@
+import sys
+input=sys.argv[1]
+print(input)
 #talkbox voor ons evenamenten bureau
 
 print("Welkom bij ons evenamentenbureau.")
