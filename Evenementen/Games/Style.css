@@ -1,0 +1,90 @@
+body {
+
+    background-color: #C0C0C0;
+}
+
+header {
+    color: white;
+    float: right;
+    width: 1150px;
+    background-color: rgb(14, 14, 14);
+    border: 3px groove rgb(92, 92, 92);
+    text-align: center;
+    margin: 50px;
+}
+
+/*Buttons*/
+
+.button {
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 200px;
+  }
+  .button:hover {
+    background-color:#1de303;
+    transition: 0.7s;
+}
+/*Boxes*/
+
+#sidebox{
+    
+    background-color: rgb(14, 14, 14);
+    width: 200px;
+    height: 175%;
+    padding: 12px;
+    border: 3px groove rgb(92, 92, 92);
+    position: absolute;
+}
+
+#box1 {
+
+    width: 500px;
+    height: 500px;
+    background-color:rgb(36, 36, 36);
+    border-radius: 20px; 
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+/*Overige deco*/
+
+#IMG1 {
+
+    width: 325px;
+    border-radius: 20px; 
+    position: relative;
+    top: 390px;
+    left: 1100px;
+}
+
+#IMG2 {
+
+    width: 325px;
+    border-radius: 20px; 
+    position: relative;
+    bottom: 110px;
+    left: 1100px;
+}
+
+.text {
+
+    text-align: center;
+    color: white;
+}
+
+#text1 {
+
+    color: white;
+    margin: 10px;
+
+}
