@@ -1,0 +1,69 @@
+body{
+    background-color: 	#C0C0C0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#sidebox{
+    background-color: rgb(14, 14, 14);
+    width: 200px;
+    height: 100%;
+    padding: 12px;  
+    border: 3px groove rgb(92, 92, 92);
+    position: absolute;
+    border-radius: 12px;
+    
+    
+}
+#header {
+    font-family:Tahoma ;
+   position: absolute;
+    width: 1150px;
+    background-color:  rgb(14, 14, 14);
+    border: 3px;
+    border-color: rgb(92, 92, 92);
+    border-style: groove;
+    text-align: center;
+    margin: 30px;
+    color: white;
+    border-radius: 12px;
+    margin-left: 300px;
+}
+
+.button {
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 200px;
+  }
+  .button:hover {
+    background-color:#1de303;
+    transition: 0.7s;
+}
+
+
+
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    margin-left: 500px;
+    
+}
+
+
+
+
+
+
+
+
+

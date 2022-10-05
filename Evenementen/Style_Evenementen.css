@@ -119,14 +119,20 @@ header {
     position: relative;
 }
 
+#Car_spotten_text {
+
+    bottom: 190px;
+    position: relative;
+}
+
 #video {
 
     position: absolute;
     z-index: -1;
     left: 15%;
     top: 40%;
-    min-width: 1280px;
-    min-height: 720px;
+    width: 1280px;
+    height: 720px;
 }
 
 #mask {
@@ -137,4 +143,10 @@ header {
     top: 40%;
     width: 1280px;
     height: 720px;
+}
+
+.H1_text {
+
+    text-align: center;
+    color: white;
 }
