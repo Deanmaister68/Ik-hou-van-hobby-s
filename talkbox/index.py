@@ -1,6 +1,3 @@
-import sys
-input=sys.argv[1]
-print(input)
 #talkbox voor ons evenamenten bureau
 
 print("Welkom bij ons evenamentenbureau.")
@@ -35,8 +32,9 @@ print("Uw bestelling is dan" , totaal , "EUR")
 bevesteging = input("Wilt u door gaan met uw bestelling? \n" + "ja of nee \n")
 if bevesteging == "nee" :
   print("Well pissoff then you wanker!")
-else:
-  print("Hallo" , name , "we hebben uw bestelling van" , aantal_personen ,
+else: print("voer uw bataalrekening nummer in")
+  
+print("Hallo" , name , "we hebben uw bestelling van" , aantal_personen ,
    "personen voor de workschop" , workshop , "voor", datum , "om" , tijd , "ontvangen! \n")
 
 print("Als er nog verdere vragen zijn kunt u ons bereike op onze mail:ikhouvanhobbies@gmail.com of bel onze klantenservice op:0604555456 ")
