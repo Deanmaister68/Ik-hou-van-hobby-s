@@ -74,7 +74,15 @@ video{
 
 
 
-
+#mask {
+    
+    position: absolute;
+    z-index: -1;
+    left: 22.5%;
+    top: 24%;
+    width: 1100px;
+    height: 500px;
+}
 
 
 
