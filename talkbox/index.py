@@ -1,4 +1,4 @@
-#talkbox voor ons evenamenten bureau
+#talkbox voor ons evenamenten burea
 
 print("Welkom bij ons evenamentenbureau.")
 name = input("Wat is je naam?\n")
@@ -32,7 +32,10 @@ print("Uw bestelling is dan" , totaal , "EUR")
 bevesteging = input("Wilt u door gaan met uw bestelling? \n" + "ja of nee \n")
 if bevesteging == "nee" :
   print("Well pissoff then you wanker!")
-else: print("voer uw bataalrekening nummer in")
+else: input("kies uw bank \n")
+bank = input("ideal \n" + "mastercard \n" + "creditcard \n")
+
+
   
 print("Hallo" , name , "we hebben uw bestelling van" , aantal_personen ,
    "personen voor de workschop" , workshop , "voor", datum , "om" , tijd , "ontvangen! \n")
