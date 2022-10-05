@@ -1,0 +1,17 @@
+body {
+
+    background-color: #C0C0C0;
+}
+
+#python {
+
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    color: white;
+}
+
+#talkbox {
+
+    color: white;
+}
