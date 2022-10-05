@@ -13,20 +13,24 @@ body
     text-align: center;
     margin: 30px;
     color: white;
+    border-radius: 12px;
 }
 #sidebox{
     background-color: rgb(14, 14, 14);
     width: 200px;
     height: 100%;
     padding: 12px;
-
     border: 3px groove rgb(92, 92, 92);
-    position: absolute;}
+    position: absolute;
+    border-radius: 12px;
+
+}
+
 
     #infobox2{
 background-color:rgb(14, 14, 14);
     width: 400px;
-    height: 250px;
+    height: 270px;
     padding: 5px;
     border: 3px groove rgb(92, 92, 92);
     position: absolute;
@@ -34,11 +38,12 @@ background-color:rgb(14, 14, 14);
     top: 500px;
     color: white;
     font-family: tahoma;
+    border-radius: 12px;
 }
 #infobox{
     background-color:rgb(14, 14, 14);
         width: 400px;
-        height: 270px;
+        height: 300px;
         padding: 5px;
         border: 3px groove rgb(92, 92, 92);
         position: absolute;
@@ -46,18 +51,21 @@ background-color:rgb(14, 14, 14);
         top: 175px;
         color: white;
         font-family: tahoma;
+        border-radius: 12px;
     }
 #foto{
 float: right;
  margin: 30px;
- height: 250px;
+ height: 300px;
+ border-radius: 12px;
  }
 #foto1{
-float: right;
+float:right;
 margin: 30px;
 margin-top: 350px;
-margin-right: -400px;
-height: 250px;
+margin-right: -480px;
+height: 300px;
+border-radius: 12px;
  }
 
  .button {
