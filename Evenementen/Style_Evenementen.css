@@ -4,6 +4,7 @@ body {
 
     background-color: #C0C0C0;
     height: 1250px;
+    font-family:Tahoma ;
 }
 
 header {
@@ -15,6 +16,7 @@ header {
     text-align: center;
     margin: 50px;
     border-radius: 12px;
+    font-family:Tahoma ;
 }
 
 /*Buttons*/
@@ -32,6 +34,7 @@ header {
     cursor: pointer;
     border-radius: 12px;
     width: 200px;
+    
   }
   .button:hover {
     background-color:#1de303;
@@ -53,6 +56,7 @@ header {
     padding: 12px;
     border: 3px groove rgb(92, 92, 92);
     position: fixed	;
+    border-radius: 12px;
 }
 
 .box {
@@ -60,7 +64,8 @@ header {
     width: 260px;
     height: 350px;
     background-color:rgb(36, 36, 36);
-    border-radius: 20px; 
+    border-radius: 20px;
+    font-family:Tahoma ; 
 }
 
 #box1 {
@@ -68,6 +73,7 @@ header {
     position: relative;
     left: 300px;
     top: 200px;
+    font-family:Tahoma ;
 }
 
 #box2 {
@@ -75,6 +81,7 @@ header {
     position: relative;
     left: 750px;
     bottom: 150px;
+    font-family:Tahoma ;
 }
 
 #box3 {
@@ -82,6 +89,7 @@ header {
     position: relative;
     left: 1200px;
     bottom: 500px;
+    font-family:Tahoma ;
 }
 
 #box4 {
@@ -89,6 +97,7 @@ header {
     position: relative;
     left: 300px;
     bottom: 300px;
+    font-family:Tahoma ;
 }
 
 #box5 {
@@ -96,6 +105,7 @@ header {
     position: relative;
     left: 750px;
     bottom: 650px;
+    font-family:Tahoma ;
 }
 
 #box6 {
@@ -103,6 +113,7 @@ header {
     position: relative;
     left: 1200px;
     bottom: 1000px;
+    font-family:Tahoma ;
 }
 
 /*Overeige Deco*/
