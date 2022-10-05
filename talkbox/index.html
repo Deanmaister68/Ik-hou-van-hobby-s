@@ -13,16 +13,28 @@
 </head>
 <body>
  <div id="python">
-    <py-script>
+  <h2 class="talkbox">typ start om te starten
+  </h2>
+    <p class="talkbox"><py-script>
 
-        print("Welkom bij ons evenamentenbureau.")
-        name = input("Wat is je naam?\n")
+        start = input("\n")
+        print("Welkom bij ons evenamentenbureau. Wat is je naam?\n")
+
+      </py-script><py-script>
+
+        
+        name = input("\n")
+
+      </py-script><py-script>
+
         print("Hallo " + name + ", " + "dankjewel voor je komst.")
         print()
         asortiment = "gitaar \n" + "gamen \n" + "progameren \n" + "fitnissen \n" + "auto spotten \n" + "wandelen \n"
         print("Ons aanbod aan workshops:-")
         print(asortiment)
         workshop = input("Kies je workshop: ")
+
+      </py-script><py-script>
         
         print("Een " + "workshop" , workshop  , "is 10EUR pp")
         order = "voor hoeveel personen wilt u de workshop " + workshop + "?: "
@@ -31,15 +43,24 @@
         aantal_personen = int(aantal_personen)
         
         totaal = 10*aantal_personen
-        
+
+      </py-script><py-script>
         
         datum = input("Welke datum wilt u dat deze workshop plaats vind? \n")
+
+      </py-script><py-script>
+
         tijd = input("Hoelaat wilt u dat deze workshop plaats vind? \n")
+
+      </py-script><py-script>
+
         plaats = input("Welke locatie wilt u dat deze workshop zig afspeeld? \n")
         
         while workshop not in asortiment:
           print("Deze workshop is niet beschikbaar")
           workshop = input("Kies workshop: ")
+
+        </py-script><py-script>
           
         print("Uw bestelling is dan" , totaal , "EUR")
         
@@ -52,7 +73,9 @@
            "personen voor de workschop" , workshop , "voor", datum , "om" , tijd , "ontvangen! \n")
         
         print("Als er nog verdere vragen zijn kunt u ons bereike op onze mail:ikhouvanhobbies@gmail.com of bel onze klantenservice op:0604555456 ")
-     </py-script>
+
+        
+     </script><p>
  </div>
 
 
