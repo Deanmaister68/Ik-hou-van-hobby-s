@@ -25,9 +25,11 @@
 
         name = input("\n")
         print("Hallo " + name + ", " + "dankjewel voor je komst. <br> Welke workschop wil je bestellen u heeft de keuze tussen: <br> Gitaar, <br> Gamen, <br> Progammeren, <br> Fitnissen, <br> Auto spotten, <br> Wandelen, <br><br>")
-        
+        asortiment = "Gitaar \n" + "Gamen \n" + "Progameren \n" + "Fitnissen \n" + "Auto spotten \n" + "Wandelen \n"
+
       </py-script><py-script>
 
+        
         workshop = input("")
         print("Uw workshop " + workshop + " staat genoteerd. met hoeveel personen wilt u de workshop doen dit is 10 euro pp <br><br>")
         
@@ -35,7 +37,7 @@
         
         aantal_personen = input()
         aantal_personen = int(aantal_personen)
-        order = "Uw " + workshop + " workshop met het aantal personen staat voor u klaar! Graag nu alleen nog de datum, tijd en plaats invullen."
+        order = "Uw " + workshop + " workshop met het aantal personen staat voor u klaar! Graag nu alleen nog de datum, tijd en plaats invullen. <br> <br>"
         print(order)
         
       </py-script><py-script> 
@@ -44,24 +46,34 @@
         
         datum = input("")
         print("Uw datum staat nu op " + datum + ".")
+        print("Kies nu een tijd waarop je de workshop wilt houden. <br> <br>")
         
       </py-script><py-script> 
         
-        tijd = input("Hoelaat wilt u dat deze workshop plaats vind? \n")
+        tijd = input("")
+        print("Uw heeft de tijd " + tijd + " gekozen voor de workshop te doen.")
+        print("Kies nu uw plaats waar u de workshop wilt houden. <br> <br>")
 
-        plaats = input("Welke locatie wilt u dat deze workshop zig afspeeld? \n")
+      </py-script><py-script> 
+
+        plaats = input("")
+        print("De locatie van uw workshop is gezet op " + plaats + ". <br> <br>") 
+        print("Uw bestelling is dan" , totaal , "EUR")
+
+      </py-script><py-script>
         
         while workshop not in asortiment:
           print("Deze workshop is niet beschikbaar")
           workshop = input("Kies workshop: ")
 
-          
-        print("Uw bestelling is dan" , totaal , "EUR")
+      </py-script><py-script>
         
         bevesteging = input("Wilt u door gaan met uw bestelling? \n" + "ja of nee \n")
         if bevesteging == "nee" :
           print("Well pissoff then you wanker!")
         else: print("voer uw bataalrekening nummer in")
+
+      </py-script><py-script>
           
         print("Hallo" , name , "we hebben uw bestelling van" , aantal_personen ,
            "personen voor de workschop" , workshop , "voor", datum , "om" , tijd , "ontvangen! \n")
