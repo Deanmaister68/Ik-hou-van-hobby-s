@@ -1,6 +1,6 @@
 body {
 
-    background-color: #C0C0C0;
+    background: linear-gradient(0.25turn, #C0C0C0, white, rgb(36, 36, 36));
 }
 
 header {
@@ -36,7 +36,7 @@ header {
 /*Boxes*/
 
 #sidebox{
-    
+
     background-color: rgb(14, 14, 14);
     width: 200px;
     height: 175%;
@@ -50,7 +50,7 @@ header {
     width: 400px;
     height: 500px;
     background-color:rgb(36, 36, 36);
-    border-radius: 20px; 
+    border-radius: 20px;
     position:absolute;
     top: 225px;
     left: 300px;
@@ -61,7 +61,7 @@ header {
 #box2 {
     width: 425px;
     height: 225px;
-    border-radius: 20px; 
+    border-radius: 20px;
     position: absolute;
     bottom: 300px;
     left: 900px;
@@ -72,7 +72,7 @@ header {
 
     width: 425px;
     height: 200px;
-    border-radius: 20px; 
+    border-radius: 20px;
     position: absolute;
     bottom: 0px;
     left: 900px;
@@ -83,5 +83,5 @@ img{
     width: 	450px;
     border-radius: 20px;
     float: right;
-    
+
 }
