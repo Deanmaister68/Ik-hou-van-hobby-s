@@ -1,6 +1,6 @@
 body {
 
-    background-color: #C0C0C0;
+    background: linear-gradient(0.25turn, #C0C0C0, white, rgb(36, 36, 36));
 }
 
 header {
