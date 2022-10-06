@@ -17,42 +17,37 @@
   </h2>
     <p class="talkbox"><py-script>
 
-        start = input("\n")
-        print("Welkom bij ons evenamentenbureau. Wat is je naam?\n")
+        start = input("")
+        start = int
+        print("Welkom bij ons evenamentenbureau. Wat is je naam? <br><br>")
 
       </py-script><py-script>
 
-        
         name = input("\n")
-
+        print("Hallo " + name + ", " + "dankjewel voor je komst. <br> Welke workschop wil je bestellen u heeft de keuze tussen: <br> Gitaar, <br> Gamen, <br> Progammeren, <br> Fitnissen, <br> Auto spotten, <br> Wandelen, <br><br>")
+        
       </py-script><py-script>
 
-        print("Hallo " + name + ", " + "dankjewel voor je komst.")
-        print()
-        asortiment = "gitaar \n" + "gamen \n" + "progameren \n" + "fitnissen \n" + "auto spotten \n" + "wandelen \n"
-        print("Ons aanbod aan workshops:-")
-        print(asortiment)
-        workshop = input("Kies je workshop: ")
-
+        workshop = input("")
+        print("Uw workshop " + workshop + " staat genoteerd. met hoeveel personen wilt u de workshop doen dit is 10 euro pp <br><br>")
+        
       </py-script><py-script>
         
-        print("Een " + "workshop" , workshop  , "is 10EUR pp")
-        order = "voor hoeveel personen wilt u de workshop " + workshop + "?: "
-        print(order)
         aantal_personen = input()
         aantal_personen = int(aantal_personen)
+        order = "Uw " + workshop + " workshop met het aantal personen staat voor u klaar! Graag nu alleen nog de datum, tijd en plaats invullen."
+        print(order)
         
+      </py-script><py-script> 
+
         totaal = 10*aantal_personen
-
-      </py-script><py-script>
         
-        datum = input("Welke datum wilt u dat deze workshop plaats vind? \n")
-
-      </py-script><py-script>
-
+        datum = input("")
+        print("Uw datum staat nu op " + datum + ".")
+        
+      </py-script><py-script> 
+        
         tijd = input("Hoelaat wilt u dat deze workshop plaats vind? \n")
-
-      </py-script><py-script>
 
         plaats = input("Welke locatie wilt u dat deze workshop zig afspeeld? \n")
         
@@ -60,7 +55,6 @@
           print("Deze workshop is niet beschikbaar")
           workshop = input("Kies workshop: ")
 
-        </py-script><py-script>
           
         print("Uw bestelling is dan" , totaal , "EUR")
         
@@ -75,7 +69,7 @@
         print("Als er nog verdere vragen zijn kunt u ons bereike op onze mail:ikhouvanhobbies@gmail.com of bel onze klantenservice op:0604555456 ")
 
         
-     </script><p>
+     </py-script><p>
  </div>
 
 
