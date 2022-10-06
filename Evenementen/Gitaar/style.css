@@ -1,7 +1,6 @@
 body {
-    
+
     background-color: #C0C0C0;
-    
 }
 
 header {
@@ -12,11 +11,9 @@ header {
     border: 3px groove rgb(92, 92, 92);
     text-align: center;
     margin: 50px;
-    font-family: tahoma;
-    border-radius: 12px;
 }
 
-
+/*Buttons*/
 
 .button {
     background-color: rgb(36, 36, 36);
@@ -36,61 +33,55 @@ header {
     background-color:#1de303;
     transition: 0.7s;
 }
-
+/*Boxes*/
 
 #sidebox{
-
+    
     background-color: rgb(14, 14, 14);
     width: 200px;
     height: 175%;
     padding: 12px;
     border: 3px groove rgb(92, 92, 92);
-    position: fixed;
-    border-radius: 12px;
+    position: absolute;
 }
 
 #box1 {
 
-    width: 500px;   
+    width: 400px;
     height: 500px;
     background-color:rgb(36, 36, 36);
     border-radius: 20px; 
-    position: relative;
-    top: 300px;
+    position:absolute;
+    top: 225px;
     left: 300px;
-    padding: 20px;
-    color:white ;
-    position: absolute;
+    color: white;
+    padding:20px;
+
 }
-
 #box2 {
-
     width: 425px;
     height: 225px;
-    background-color:#C0C0C0;
     border-radius: 20px; 
     position: absolute;
     bottom: 300px;
-    left: 600px;
+    left: 900px;
     padding: 20px;
 }
 
 #box3 {
 
     width: 425px;
-    height: 225px;
-    background-color:#C0C0C0;
+    height: 200px;
     border-radius: 20px; 
     position: absolute;
     bottom: 0px;
-    left: 600px;
+    left: 900px;
     padding: 20px;
-    
-}
 
+}
 img{
-    width: 425px;
+    width: 	450px;
     border-radius: 20px;
+    float: right;
     
 }
-
