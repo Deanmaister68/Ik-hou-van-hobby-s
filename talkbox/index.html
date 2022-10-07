@@ -5,17 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
- <div id="python">
-  <h2 class="talkbox">typ start om te starten
-  </h2>
-    <p class="talkbox"><py-script>
+
+  <!--Header-->
+
+  <Header>
+  <h1 class="Hoofdtext">Bestellen</h1>
+
+  </Header>
+
+  <!--Sidebox-->
+
+  <div id="sidebox">
+    <a href="../Home/Index_Home.html"> <button class="button"> Home </button></a>
+
+    <a href="../Evenementen/Index_Evenementen.html"> <button class="button"> Evenementen</button></a>
+
+    <a href="../About/Index_About.html"> <button class="button"> Over</button></a>
+
+    <a href="../Contact/contact.html"> <button class="button"> Contact</button></a>
+
+  </div>
+  
+  <!--Python script (niet aanpassen!)-->
+
+  <div id="python">
+    <h2 class="talkbox">Typ "start" om te starten
+    </h2>
+      <p class="talkbox"><py-script>
 
         start = input("")
         start = int
@@ -29,10 +53,9 @@
 
       </py-script><py-script>
 
-        
         workshop = input("")
         print("Uw workshop " + workshop + " staat genoteerd. met hoeveel personen wilt u de workshop doen dit is 10 euro pp <br><br>")
-        
+
       </py-script><py-script>
         
         aantal_personen = input()

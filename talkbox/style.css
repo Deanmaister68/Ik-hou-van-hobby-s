@@ -3,15 +3,70 @@ body {
     background-color: #C0C0C0;
 }
 
+header {
+    color: white;
+    float: right;
+    width: 1150px;
+    background-color: rgb(14, 14, 14);
+    border: 3px groove rgb(92, 92, 92);
+    text-align: center;
+    margin: 50px;
+    border-radius: 12px;
+    font-family: Tahoma;
+}
+
 #python {
 
-    width: 400px;
-    height: 600px;
-    background-color: black;
+    position: absolute;
+    left: 322px;
+    top: 200px;
+    width: 500px;
+    min-height: 100px;
+    height: auto;
+    background-color: rgb(36, 36, 36);
     color: white;
+    border: groove black 4px;
+    border-radius: 12px;
+    font-family: Tahoma;
+    padding: 5px;
 }
 
 .talkbox {
 
     color: white;
+}
+
+/*Buttton*/
+
+.button {
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 200px;
+    
+  }
+  .button:hover {
+    background-color:#1de303;
+    transition: 0.7s;
+}
+
+/*Boxes*/
+
+#sidebox{
+    
+    background-color: rgb(14, 14, 14);
+    width: 200px;
+    height: 175%;
+    padding: 12px;
+    border: 3px groove rgb(92, 92, 92);
+    position: fixed	;
+    border-radius: 12px;
 }
