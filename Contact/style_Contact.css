@@ -4,16 +4,17 @@ header {
 
     float: right;
     width: 1150px;
-    background-color: rgb(0, 90, 136);
+    background-color: rgb(14, 14, 14);
     border: 3px;
-    border-color: rgb(0, 55, 255);
+    border-color: rgb(92, 92, 92);
     border-style: groove;
     text-align: center;
     margin: 30px;
+    color: rgb(255, 255, 255);
 
 }
 
-body{background-color: rgb(196, 127, 180);}
+body{background-color: #C0C0C0;}
 
 #sidebox{
     background-color: rgb(14, 14, 14);
@@ -46,27 +47,43 @@ body{background-color: rgb(196, 127, 180);}
 #mailbox{
     float: right;
     width: 1150px;
-    height: 200px;
-    background-color: rgb(0, 90, 136);
+    height: 150px;
+    background-color: rgb(36, 36, 36);
     border: 3px;
-    border-color: rgb(0, 55, 255);
+    border-color: rgb(92, 92, 92);
     border-style: groove;
     text-align: center;
     margin-top: 30px;
     margin-right: 30px;
+    color: rgb(255, 255, 255);
 
 }
 
 #phonebox{
     float: right;
     width: 1150px;
-    height: 200px;
-    background-color: rgb(0, 90, 136);
+    height: 150px;
+    background-color: rgb(36, 36, 36);
     border: 3px;
-    border-color: rgb(0, 55, 255);
+    border-color: rgb(92, 92, 92);
     border-style: groove;
     text-align: center;
     margin-top: 50px;
     margin-right: 30px;
+    color: rgb(255, 255, 255);
+
+}
+#adressbox{
+    float: right;
+    width: 1150px;
+    height: 200px;
+    background-color: rgb(36, 36, 36);
+    border: 3px;
+    border-color: rgb(92, 92, 92);
+    border-style: groove;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
 
 }
