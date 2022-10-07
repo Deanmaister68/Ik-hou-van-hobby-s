@@ -187,3 +187,12 @@ header {
     text-align: center;
     color: white;
 }
+
+#Orderimg {
+
+    width:  65px;
+    position: absolute;
+    right: 400px;
+    bottom: 20px;
+    
+}
