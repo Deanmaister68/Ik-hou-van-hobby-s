@@ -42,25 +42,39 @@
       <p class="talkbox"><py-script>
 
         start = input("")
-        start = int
         print("Welkom bij ons evenamentenbureau. Wat is je naam? <br><br>")
 
       </py-script><py-script>
 
         name = input("\n")
-        print("Hallo " + name + ", " + "dankjewel voor je komst. <br> Welke workschop wil je bestellen u heeft de keuze tussen: <br> Gitaar, <br> Gamen, <br> Progammeren, <br> Fitnissen, <br> Auto spotten, <br> Wandelen, <br><br>")
-        asortiment = "Gitaar \n" + "Gamen \n" + "Progameren \n" + "Fitnissen \n" + "Auto spotten \n" + "Wandelen \n"
+        print("Hallo " + name + ", " + "dankjewel voor je komst. <br> Welke workschop wil je bestellen u heeft de keuze tussen: <br> Gitaar, <br> Gamen, <br> Programmeren, <br> Fitnissen, <br> Auto spotten, <br> Wandelen, <br><br>")
+        asortiment = "Gitaar \n" + "Gamen \n" + "Programmeren \n" + "Fitnissen \n" + "Auto spotten \n" + "Wandelen \n"
 
       </py-script><py-script>
 
         workshop = input("")
-        print("Uw workshop " + workshop + " staat genoteerd. met hoeveel personen wilt u de workshop doen dit is 10 euro pp <br><br>")
+    
+        if workshop == "Gitaar" :
+            print("Uw workshop gitaar staat genoteerd. met hoeveel personen wilt u de workshop doen dit is €15 euro pp <br><br>")
+        if workshop == "Gamen" : 
+            print("Uw workshop gamen staat genoteerd. met hoeveel personen wilt u de workshop doen dit is €18,50 pp <br><br>")
+        if workshop == "Programmeren" : 
+            print("Uw workshop programmeren staat genoteerd. met hoeveel personen wilt u de workshop doen dit is €10 pp <br><br>")
+        if workshop == "Fitnessen" : 
+            print("Uw workshop fitnessen staat genoteerd. met hoeveel personen wilt u de workshop doen dit is €12,50 pp <br><br>")
+        if workshop == "Auto spotten" : 
+            print("Uw workshop auto spotten staat genoteerd. met hoeveel personen wilt u de workshop doen dit is €13 pp <br><br>")
+        if workshop == "Wandelen" : 
+            print("Uw workshop wandelen staat genoteerd. met hoeveel personen wilt u de workshop doen dit is €7 pp <br><br>")
+        else: print("")
+
+        print("Selecteer nu u aantal personen <br><br>")
 
       </py-script><py-script>
         
-        aantal_personen = input()
+        aantal_personen = input("")
         aantal_personen = int(aantal_personen)
-        order = "Uw " + workshop + " workshop met het aantal personen staat voor u klaar! Graag nu alleen nog de datum, tijd en plaats invullen. <br> <br>"
+        order = "Uw workshop met het aantal personen staat voor u klaar! Graag nu alleen nog de datum, tijd en plaats invullen. <br> <br>"
         print(order)
         
       </py-script><py-script> 
@@ -85,32 +99,20 @@
 
       </py-script><py-script>
         
-        while workshop not in asortiment:
-          print("Deze workshop is niet beschikbaar")
-          workshop = input("Kies workshop: ")
-
-      </py-script><py-script>
-        
         bevesteging = input("Wilt u door gaan met uw bestelling? \n" + "ja of nee \n")
         if bevesteging == "nee" :
           print("Well pissoff then you wanker!")
-        else: print("voer uw bataalrekening nummer in")
+        else: print("voer uw bataalrekening nummer in <br><br>")
 
       </py-script><py-script>
           
         print("Hallo" , name , "we hebben uw bestelling van" , aantal_personen ,
-           "personen voor de workschop" , workshop , "voor", datum , "om" , tijd , "ontvangen! \n")
+           "personen voor de workschop" , workshop , "voor" , datum , "om" , tijd , "ontvangen! \n")
         
-        print("Als er nog verdere vragen zijn kunt u ons bereike op onze mail:ikhouvanhobbies@gmail.com of bel onze klantenservice op:0604555456 ")
-
+        print("Als er nog verdere vragen zijn kunt u ons bereike op onze mail: ikhouvanhobbies@gmail.com of bel onze klantenservice op: 0604555456 ")
         
      </py-script><p>
  </div>
-
-
-    
-
-
     
 </body>
 </html>
