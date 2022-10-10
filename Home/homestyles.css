@@ -35,7 +35,7 @@ p{
     font-family:Tahoma ;
    position: absolute;
     width: 800px;
-    background-color:  rgb(14, 14, 14);
+    background-color:  rgb(36, 36, 36);
     border: 3px;
     border-color: rgb(92, 92, 92);
     border-style: groove;
@@ -62,8 +62,11 @@ p{
   }
   .button:hover {
     background-color:#1de303;
-    transition: 0.7s;
+    transition: .7s;
+    
+    
 }
+
 
 video{
     width: 900px;
@@ -85,8 +88,25 @@ video{
     height: 500px;
 }
 
-
-
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
 
 

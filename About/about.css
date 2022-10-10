@@ -1,12 +1,12 @@
 
 body
-{background-color:#C0C0C0;}
+{background: linear-gradient(0.25turn, #C0C0C0, white, rgb(36, 36, 36));}
 
 #header {
 
     float: right;
     width: 1150px;
-    background-color: rgb(14, 14, 14);
+    background-color: rgb(36, 36, 36);
     border: 3px;
     border-color:rgb(92, 92, 92);
     border-style: groove;
@@ -21,14 +21,14 @@ body
     height: 100%;
     padding: 12px;
     border: 3px groove rgb(92, 92, 92);
-    position: absolute;
+    position: fixed;
     border-radius: 12px;
 
 }
 
 
     #infobox2{
-background-color:rgb(14, 14, 14);
+background-color:rgb(36, 36, 36);
     width: 400px;
     height: 270px;
     padding: 5px;
@@ -41,7 +41,7 @@ background-color:rgb(14, 14, 14);
     border-radius: 12px;
 }
 #infobox{
-    background-color:rgb(14, 14, 14);
+    background-color:rgb(36, 36, 36);
         width: 400px;
         height: 300px;
         padding: 5px;
@@ -86,3 +86,23 @@ border-radius: 12px;
     background-color:#1de303;
     transition: 0.7s;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
