@@ -4,17 +4,18 @@ header {
 
     float: right;
     width: 1150px;
-    background-color: rgb(14, 14, 14);
+    background-color: rgb(36, 36, 36);
     border: 3px;
     border-color: rgb(92, 92, 92);
     border-style: groove;
     text-align: center;
     margin: 30px;
     color: rgb(255, 255, 255);
+    border-radius: 12px;
 
 }
 
-body{background-color: #C0C0C0;}
+body{background: linear-gradient(0.25turn, #C0C0C0, white, rgb(36, 36, 36));}
 
 #sidebox{
     background-color: rgb(14, 14, 14);
@@ -23,7 +24,8 @@ body{background-color: #C0C0C0;}
     padding: 12px;
     border-radius: 12px;
     border: 3px groove rgb(92, 92, 92);
-    position: fixed;}
+    position: fixed;
+}
     
  .button{
     background-color: rgb(36, 36, 36);
@@ -56,6 +58,7 @@ body{background-color: #C0C0C0;}
     margin-top: 30px;
     margin-right: 30px;
     color: rgb(255, 255, 255);
+    border-radius: 12px;
 
 }
 
@@ -71,6 +74,7 @@ body{background-color: #C0C0C0;}
     margin-top: 50px;
     margin-right: 30px;
     color: rgb(255, 255, 255);
+    border-radius: 12px;    
 
 }
 #adressbox{
@@ -85,5 +89,26 @@ body{background-color: #C0C0C0;}
     margin-top: 50px;
     margin-right: 30px;
     color: rgb(255, 255, 255);
+    border-radius: 12px;
 
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
