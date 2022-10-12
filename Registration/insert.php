@@ -1,4 +1,5 @@
 <?php
+$sql = "SELECT * FROM `registation`;";
 if (isset($_POST['submit'])) {
     if (isset($_POST['username']) && isset($_POST['password']) &&
         isset($_POST['gender']) && isset($_POST['email']) &&
