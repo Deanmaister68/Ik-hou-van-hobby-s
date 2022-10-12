@@ -15,7 +15,7 @@ p{
   margin: 4px 2px;
   border-radius: 12px;
   width: 135px;
-  margin-top: 400px;
+  margin-top: 300px;
    
 
 }
@@ -108,7 +108,22 @@ video{
     background: #555; 
   }
 
+#login{
+  background-color: rgb(36, 36, 36);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  width: 100%;
+  
+}
 
-
-
-
+#login:hover {
+  background-color:#1de303;
+  transition: .7s;
+}
