@@ -125,6 +125,7 @@ body{background: linear-gradient(0.25turn, #C0C0C0, white, rgb(36, 36, 36));}
     margin: 4px 2px;
     border-radius: 12px;
     width: 100%;
+    cursor: pointer;
     
   }
   
