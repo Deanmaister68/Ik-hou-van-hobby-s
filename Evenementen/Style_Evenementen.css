@@ -234,6 +234,7 @@ header {
     margin: 4px 2px;
     border-radius: 12px;
     width: 100%;
+    cursor: pointer;
     
   }
   
